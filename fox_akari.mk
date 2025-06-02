@@ -28,6 +28,11 @@ OF_ENABLE_USB_STORAGE := 1
 OF_MAINTAINER := Firxp011
 OF_MAINTAINER_AVATAR := /device/sony/akari/maintainer.png
 
+# Maximum permissible splash image size (in kilobytes); do *NOT* increase
+OF_SPLASH_MAX_SIZE := 130
+
+OF_ADVANCED_SECURITY := 1
+
 # OrangeFox GUI settings
 OF_SCREEN_H := 2160
 OF_STATUS_INDENT_LEFT := 48
