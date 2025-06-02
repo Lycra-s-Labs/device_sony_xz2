@@ -26,6 +26,7 @@ OF_ENABLE_USB_STORAGE := 1
 
 # Maintainer Name
 OF_MAINTAINER := Firxp011
+OF_MAINTAINER_AVATAR := /device/sony/akari/maintainer.png
 
 # OrangeFox GUI settings
 OF_SCREEN_H := 2160
