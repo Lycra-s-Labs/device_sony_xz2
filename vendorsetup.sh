@@ -52,8 +52,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_SED_BINARY=1
 	export FOX_USE_XZ_UTILS=1
 
-
-
+    # Recovery additional features
+    export FOX_AB_DEVICE=1
 
 	lunch twrp_$FDEVICE-eng
 	# let's see what are our build VARs
