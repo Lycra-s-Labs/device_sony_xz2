@@ -44,6 +44,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# OrangeFox Addons
 	export FOX_ENABLE_APP_MANAGER=1
 	
+    # Maintainer Name
+    OF_MAINTAINER := Firxp011
+
 	# Binaries & Tools
 	export FOX_USE_BASH_SHELL=1
 	export FOX_ASH_IS_BASH=1
